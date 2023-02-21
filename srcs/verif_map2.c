@@ -6,7 +6,7 @@
 /*   By: fleriche <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/21 11:35:33 by fleriche          #+#    #+#             */
-/*   Updated: 2023/02/21 12:00:32 by fleriche         ###   ########.fr       */
+/*   Updated: 2023/02/21 12:13:14 by fleriche         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ char	**map_p(t_data *dta, char **map)
 		error_alert("Error on Collectible");
 	return (map);
 }
+
 void	verif_char2(t_data *dta, char **map)
 {
 	int	i;
